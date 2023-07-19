@@ -8,21 +8,17 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
   meta,
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  stream,
+  authentication,
+  todo,
 } from "../assets";
 
 export const navLinks = [
@@ -198,9 +194,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "StreamSubs",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "StreamSubs is a cutting-edge subscription-based video streaming platform that offers high-quality courses and educational content. With StreamSubs, users can access premium courses on various subjects by subscribing to a monthly or annual plan.",
     tags: [
       {
         name: "react",
@@ -211,20 +207,20 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "chakraui",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: stream,
+    source_code_link: "https://github.com/jitender1222/VideoStreamingPlatform",
   },
   {
-    name: "Job IT",
+    name: "SecureAuth",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "SecureAuth is a powerful Next.js application that provides robust authentication and authorization functionalities. It allows users to securely log in, manage their accounts, and access authorized resources. ",
     tags: [
       {
-        name: "react",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -232,24 +228,24 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: authentication,
+    source_code_link: "https://github.com/jitender1222/Auth-Nextjs",
   },
   {
-    name: "Trip Guide",
+    name: "ToDo With Drag and Drop",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Todo application built using React and TypeScript. It includes a drag and drop feature implemented using the React Drag and Drop library.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +253,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: todo,
+    source_code_link: "https://github.com/jitender1222/TODO-typescript-",
   },
 ];
 
